@@ -1,0 +1,108 @@
+  @import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,300&family=Open+Sans:ital,wght@1,300&family=Shantell+Sans:ital@1&family=Source+Serif+Pro:ital,wght@1,400;1,600&family=Tilt+Prism&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: plum;
+}
+
+.container{
+    max-width: 450px;
+    background: #bc1ad1;
+    border-radius: 80px;
+    box-shadow: 10px 10px 10px 10px rgba(70, 32, 60, 0.4);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.Temperature-icon{
+    font-size: 80px;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 40px;
+}
+
+#celsius, #fahrenheit, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    border-radius: 50px;
+}
+
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 100px 100px 100px 0px;
+    padding: 0 10px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+.icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background:rgb(155, 21, 121);
+    color: #fff;
+    border-radius: 100px 100px 0px 100px;
+}
+
+
+.button{
+    margin-top: 50px;
+    text-align: center;
+   
+}
+
+
+.button button{
+    border:salmon;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background: plum;
+    color:bisque;
+}
